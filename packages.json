@@ -1,0 +1,6 @@
+{
+    "dependencies":[
+        "example.js",
+        "example2.js"
+    ]
+}
