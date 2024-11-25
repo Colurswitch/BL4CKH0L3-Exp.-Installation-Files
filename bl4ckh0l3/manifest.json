@@ -1,15 +1,15 @@
 {
     "manifest_version": 3,
-    "name": "My Chrome Extension",
-    "version": "1.0",
-    "description": "An example Chrome extension.",
+    "name": "bl4ckh0l3",
+    "version": "0.1a",
+    "description": "The first Chromebook exploit",
     "permissions": [
       "storage",
       "tabs"
     ],
     "background": {
-      "scripts": ["background.js"],
-      "persistent": false
+      "service_worker": "service_worker.js",
+      "type": "module"
     },
     "browser_action": {
       "default_popup": "popup.html",
