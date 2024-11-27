@@ -1,0 +1,8 @@
+{
+    "locations" : [
+        {
+            "from" : "serverURL",
+            "to" : "localURL"
+        }
+    ]
+}
